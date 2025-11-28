@@ -29,33 +29,35 @@
 ## 3. Structure de dossiers
 
 ```
-/app/
-  /controllers/
-    Main.php
-    Controller.php
-  /models/
-    Model.php
-  /views/
-    /public/
-      /images/
-      /js/
-      /styles/
-    /client/
-      index.php
-    /admin/
-      index.php
-    /Intervenant/
-      index.php
-    Home.php
-    404.php
-    /utils/
-      Mailer.php
-      PdfGenerator.php
-    /config/
-      Database.php
-      Config.php
-    .htaccess
-    index.php
+piscinepro/
+├── app/
+│   ├── controllers/
+│   │   ├── Main.php
+│   │   └── Controller.php
+│   ├── models/
+│   │   └── Model.php
+│   ├── views/
+│   │   ├── public/
+│   │   │   ├── images/
+│   │   │   ├── js/
+│   │   │   └── styles/
+│   │   ├── client/
+│   │   │   └── index.php
+│   │   ├── admin/
+│   │   │   └── index.php
+│   │   ├── intervenant/
+│   │   │   └── index.php
+│   │   ├── Home.php
+│   │   └── 404.php
+│   ├── utils/
+│   │   ├── Mailer.php
+│   │   └── PdfGenerator.php
+│   ├── config/
+│   │   ├── Database.php
+│   │   └── Config.php
+│   └── .htaccess
+├── vendor/
+└── index.php
 ```
 
 ---
